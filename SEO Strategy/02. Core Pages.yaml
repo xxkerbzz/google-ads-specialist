@@ -1,0 +1,228 @@
+# Core Pages Structure
+# Quick Overview
+
+# Core Pages
+# ├── About
+# ├── Services
+# ├── Case Studies
+# ├── Contact
+# ├── FAQ
+# ├── Privacy Policy
+# └── Terms of Service
+
+---
+
+core_pages:
+  - url: /about
+    title: About LeadGen Ads - Google Ads Specialist for Service Businesses
+    h1: About LeadGen Ads
+    purpose: Company story, mission, what makes us different, how we work
+    business_goal: "Establish trust and credibility with service business owners, demonstrate expertise and personal approach, differentiate from large agencies"
+    target_audience: "Service business owners (35-55 years old, 5-50 employees, $500K-$5M revenue) who value personal service and proven results"
+    primary_keyword: about google ads specialist
+    content_outline:
+      h1: About LeadGen Ads
+      h2s:
+        - Our Mission
+        - Why We Focus on Service Businesses
+        - What Makes Us Different
+        - How We Work
+        - Our Approach to Google Ads
+    key_messaging:
+      - "Specialized Google Ads management exclusively for local service businesses"
+      - "Direct access to the specialist—no account managers or offshore teams"
+      - "Month-to-month engagement with no long-term contracts"
+      - "Focus on qualified leads that convert, not just traffic volume"
+      - "Transparent reporting and communication you can actually understand"
+    cta_strategy: "Book a free consultation to discuss your Google Ads needs"
+    conversion_alignment: "Build trust and demonstrate expertise to convert visitors into consultation requests"
+    schema_type: Organization
+
+  - url: /services
+    title: Google Ads Services for Service Businesses | LeadGen Ads
+    h1: Our Google Ads Services
+    purpose: Detailed service descriptions, transparent pricing, what's included in each package
+    business_goal: "Convert visitors into paying clients by clearly explaining services and value, addressing pricing transparency concerns"
+    target_audience: "Service business owners researching Google Ads management options, comparing services and pricing"
+    primary_keyword: google ads management services
+    content_outline:
+      h1: Our Google Ads Services
+      h2s:
+        - Google Search Ads Management
+        - Local Service Ads (LSA) Management
+        - Display Remarketing Campaigns
+        - Additional Services
+        - Service Guarantees
+        - How to Get Started
+    key_messaging:
+      - "Specialized Google Ads management for service businesses only"
+      - "Transparent pricing with no hidden fees"
+      - "Month-to-month engagement—no long-term contracts"
+      - "Direct access to the specialist managing your account"
+      - "Focus on qualified leads that convert to customers"
+    cta_strategy: "Book a free consultation to discuss which service fits your business"
+    conversion_alignment: "Clear service descriptions and transparent pricing to convert visitors into consultation requests"
+    schema_type: Service
+
+  - url: /case-studies
+    title: Google Ads Case Studies for Service Businesses | LeadGen Ads
+    h1: Case Studies
+    purpose: Real results from real clients across different service industries
+    business_goal: "Build credibility through proven results, demonstrate ROI and success across different industries"
+    target_audience: "Service business owners who research-oriented, value proven results over promises, read case studies before making decisions"
+    primary_keyword: google ads case studies service businesses
+    content_outline:
+      h1: Case Studies
+      h2s:
+        - HVAC Company Case Study
+        - Plumbing Service Case Study
+        - Electrical Contractor Case Study
+        - Roofing Company Case Study
+        - Results Across Industries
+    key_messaging:
+      - "Real results from real service businesses"
+      - "Measurable outcomes: lead generation, cost per lead, ROI"
+      - "Success across multiple service industries"
+      - "Transparent reporting of actual performance"
+    cta_strategy: "See how we can generate similar results for your business—book a consultation"
+    conversion_alignment: "Build trust through proven results to convert visitors into consultation requests"
+    schema_type: Article
+
+  - url: /contact
+    title: Contact LeadGen Ads - Free Google Ads Consultation
+    h1: Contact Us
+    purpose: Contact form, consultation booking, FAQ section, easy access to specialist
+    business_goal: "Generate 20-30 qualified consultation requests per month, convert 15-20% into paying clients"
+    target_audience: "Service business owners ready to discuss their Google Ads needs, seeking consultation or answers to questions"
+    primary_keyword: contact google ads specialist
+    content_outline:
+      h1: Contact Us
+      h2s:
+        - Book a Free Consultation
+        - Get in Touch
+        - Frequently Asked Questions
+        - Response Time
+    key_messaging:
+      - "Free Google Ads consultation—no obligation"
+      - "24-hour response time to your questions"
+      - "Direct access to the specialist"
+      - "Month-to-month engagement—no pressure, no contracts"
+    cta_strategy: "Book a free consultation to discuss your Google Ads needs"
+    conversion_alignment: "Make it easy to book consultations and get in touch, reducing friction in the conversion process"
+    schema_type: ContactPage
+
+  - url: /faq
+    title: Google Ads FAQ for Service Businesses | LeadGen Ads
+    h1: Frequently Asked Questions
+    purpose: Common questions and answers about Google Ads management, services, pricing, and process
+    business_goal: "Address common objections and questions, build trust, reduce friction in the decision-making process"
+    target_audience: "Service business owners with questions about Google Ads management, pricing, process, and what to expect"
+    primary_keyword: google ads management faq
+    content_outline:
+      h1: Frequently Asked Questions
+      h2s:
+        - General Questions
+        - Service Questions
+        - Pricing Questions
+        - Process Questions
+        - Results Questions
+    key_messaging:
+      - "Transparent answers to common questions"
+      - "No long-term contracts—month-to-month engagement"
+      - "Direct access to the specialist"
+      - "Focus on qualified leads that convert"
+    cta_strategy: "Still have questions? Book a free consultation to discuss your specific needs"
+    conversion_alignment: "Address objections and build trust to convert visitors into consultation requests"
+    schema_type: FAQPage
+
+  - url: /privacy
+    title: Privacy Policy | LeadGen Ads
+    h1: Privacy Policy
+    purpose: Privacy policy explaining how we collect, use, and protect user data
+    business_goal: "Legal compliance, build trust through transparency about data handling"
+    target_audience: "All website visitors concerned about privacy and data protection"
+    primary_keyword: privacy policy
+    content_outline:
+      h1: Privacy Policy
+      h2s:
+        - Information We Collect
+        - How We Use Your Information
+        - Data Protection
+        - Your Rights
+        - Contact Us
+    key_messaging:
+      - "We respect your privacy"
+      - "Transparent about data collection and use"
+      - "Secure data protection practices"
+    cta_strategy: "Contact us with any privacy questions"
+    conversion_alignment: "Build trust through transparency"
+    schema_type: WebPage
+
+  - url: /terms
+    title: Terms of Service | LeadGen Ads
+    h1: Terms of Service
+    purpose: Legal terms and conditions for using our services
+    business_goal: "Legal compliance, protect business interests, set clear expectations"
+    target_audience: "All website visitors and potential clients"
+    primary_keyword: terms of service
+    content_outline:
+      h1: Terms of Service
+      h2s:
+        - Service Agreement
+        - Payment Terms
+        - Client Responsibilities
+        - Cancellation Policy
+        - Limitation of Liability
+    key_messaging:
+      - "Clear terms and conditions"
+      - "Month-to-month engagement—cancel anytime"
+      - "Transparent about expectations"
+    cta_strategy: "Contact us with any questions about our terms"
+    conversion_alignment: "Set clear expectations to build trust"
+    schema_type: WebPage
+
+navigation:
+  header:
+    main_nav:
+      - label: Home
+        url: /
+      - label: Services
+        url: /services
+      - label: Case Studies
+        url: /case-studies
+      - label: Resources
+        url: /resources
+        dropdown:
+          - label: Google Ads for Service Businesses
+            url: /resources/google-ads-for-service-businesses
+          - label: Industry-Specific Google Ads
+            url: /resources/industry-specific-google-ads
+          - label: Google Ads Services
+            url: /resources/google-ads-services-and-management
+          - label: Google Ads Strategy
+            url: /resources/google-ads-strategy-and-optimization
+          - label: Google Ads Problems & Solutions
+            url: /resources/google-ads-problems-and-solutions
+      - label: About
+        url: /about
+      - label: Contact
+        url: /contact
+  footer:
+    footer_nav:
+      - label: About
+        url: /about
+      - label: Services
+        url: /services
+      - label: Case Studies
+        url: /case-studies
+      - label: Contact
+        url: /contact
+      - label: FAQ
+        url: /faq
+      - label: Resources
+        url: /resources
+      - label: Privacy Policy
+        url: /privacy
+      - label: Terms of Service
+        url: /terms
+

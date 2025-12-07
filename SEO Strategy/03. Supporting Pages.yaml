@@ -1,0 +1,467 @@
+# Supporting Pages Structure
+# Quick Overview - All Silos
+
+# Google Ads for Service Businesses
+# ├── Google Search Ads for Service Businesses
+# │   └── What Are Google Search Ads for Service Businesses?
+
+# Industry-Specific Google Ads
+# └── Google Ads for HVAC Companies
+#     └── How Do Google Ads Work for HVAC Companies?
+
+# Google Ads Services and Management
+# └── Google Search Ads Management
+#     └── What Is Google Search Ads Management?
+
+# Google Ads Strategy and Optimization
+# └── Google Ads Keyword Research
+#     └── How Do I Research Keywords for Google Ads?
+
+# Google Ads Problems and Solutions
+# └── Google Ads Not Getting Leads
+#     └── Why Are My Google Ads Not Getting Leads?
+
+---
+
+silos:
+  - silo_name: Google Ads for Service Businesses
+    entity_relationships:
+      primary_entity: Google Ads for Service Businesses
+      supporting_entities:
+        - Google Search Ads
+        - Local Service Ads
+        - Service business marketing
+        - Lead generation for service businesses
+      related_entities_other_silos:
+        Industry-Specific Google Ads: industry-specific strategies and tactics
+        Google Ads Services and Management: service offerings and management approaches
+        Google Ads Strategy and Optimization: optimization strategies and best practices
+    cross_silo_linking:
+      link_to:
+        - silo: Industry-Specific Google Ads
+          reason: When discussing industry-specific strategies
+        - silo: Google Ads Services and Management
+          reason: When explaining service offerings
+        - silo: Google Ads Strategy and Optimization
+          reason: When covering optimization strategies
+      link_from:
+        - Industry-Specific Google Ads
+        - Google Ads Services and Management
+        - Google Ads Strategy and Optimization
+    main_pillar:
+      url: /resources/google-ads-for-service-businesses
+      title: "Google Ads for Service Businesses: The Complete Guide"
+      metaTitle: "Google Ads for Service Businesses: Complete Guide | LeadGen Ads"
+      metaDescription: "Learn how to use Google Ads effectively for service businesses. Complete guide covering search ads, local service ads, optimization, and lead generation strategies."
+      primaryKeyword: "google ads for service businesses"
+      secondaryKeywords:
+        - "ppc for service businesses"
+        - "google ads local service businesses"
+        - "service business advertising"
+      featuredSnippet: "Google Ads for service businesses involves using search ads, local service ads, and display remarketing to generate qualified leads from customers actively searching for services in your local area."
+      parentUrl: "/resources"
+      parentTitle: "Resources"
+      schema: "Article"
+      wordCount: 3500
+      content_outline:
+        h1: Google Ads for Service Businesses: The Complete Guide
+        h2s:
+          - Introduction to Google Ads for Service Businesses
+          - Why Google Ads Works for Service Businesses
+          - Types of Google Ads for Service Businesses
+          - Setting Up Google Ads for Service Businesses
+          - Optimizing Google Ads for Service Businesses
+          - Measuring Success with Google Ads
+          - Frequently Asked Questions
+    subtopic_pillars:
+      - url: /resources/google-ads-for-service-businesses/google-search-ads-for-service-businesses
+        title: "Google Search Ads for Service Businesses: Complete Guide"
+        metaTitle: "Google Search Ads for Service Businesses | LeadGen Ads"
+        metaDescription: "Learn how to set up and optimize Google Search Ads for service businesses. Complete guide covering keyword research, ad copy, bidding, and conversion optimization."
+        primaryKeyword: "google search ads for service businesses"
+        secondaryKeywords:
+          - "search ads service businesses"
+          - "ppc search ads"
+        featuredSnippet: "Google Search Ads for service businesses involves creating text ads that appear when potential customers search for your services on Google, targeting local keywords and optimizing for lead generation."
+        parentUrl: "/resources/google-ads-for-service-businesses"
+        parentTitle: "Google Ads for Service Businesses"
+        grandparentUrl: "/resources"
+        grandparentTitle: "Resources"
+        schema: "Article"
+        wordCount: 2200
+        content_outline:
+          h1: Google Search Ads for Service Businesses: Complete Guide
+          h2s:
+            - What Are Google Search Ads for Service Businesses?
+            - Why Google Search Ads Work for Service Businesses
+            - Setting Up Google Search Ads
+            - Optimizing Google Search Ads
+            - Measuring Performance
+            - Frequently Asked Questions
+    paa_blog_posts:
+      defaults:
+        target_word_count: 1200
+        schema_type: Article, FAQPage
+      posts:
+        - title: "What Are Google Search Ads for Service Businesses?"
+          slug: "what-are-google-search-ads-for-service-businesses"
+          metaTitle: "What Are Google Search Ads for Service Businesses? | LeadGen Ads"
+          metaDescription: "Learn what Google Search Ads are and how they work for service businesses. Discover how search ads help generate qualified leads from customers actively searching for services."
+          primaryKeyword: "what are google search ads for service businesses"
+          parentUrl: "/resources/google-ads-for-service-businesses/google-search-ads-for-service-businesses"
+          parentTitle: "Google Search Ads for Service Businesses"
+          grandparentUrl: "/resources/google-ads-for-service-businesses"
+          grandparentTitle: "Google Ads for Service Businesses"
+          greatGrandparentUrl: "/resources"
+          greatGrandparentTitle: "Resources"
+
+  - silo_name: Industry-Specific Google Ads
+    entity_relationships:
+      primary_entity: Industry-Specific Google Ads
+      supporting_entities:
+        - HVAC Google Ads
+        - Plumbing Google Ads
+        - Electrical Google Ads
+        - Roofing Google Ads
+        - Landscaping Google Ads
+      related_entities_other_silos:
+        Google Ads for Service Businesses: general service business strategies
+        Google Ads Services and Management: management approaches for specific industries
+        Google Ads Strategy and Optimization: industry-specific optimization tactics
+    cross_silo_linking:
+      link_to:
+        - silo: Google Ads for Service Businesses
+          reason: When discussing general service business strategies
+        - silo: Google Ads Strategy and Optimization
+          reason: When covering industry-specific optimization
+      link_from:
+        - Google Ads for Service Businesses
+        - Google Ads Services and Management
+    main_pillar:
+      url: /resources/industry-specific-google-ads
+      title: "Industry-Specific Google Ads: Complete Guide"
+      metaTitle: "Industry-Specific Google Ads Guide | LeadGen Ads"
+      metaDescription: "Learn how to create effective Google Ads campaigns for specific service industries including HVAC, plumbing, electrical, roofing, and landscaping businesses."
+      primaryKeyword: "industry-specific google ads"
+      secondaryKeywords:
+        - "google ads for hvac"
+        - "google ads for plumbers"
+        - "service industry google ads"
+      featuredSnippet: "Industry-specific Google Ads involves tailoring campaigns to the unique search behavior, keywords, and conversion patterns of specific service industries like HVAC, plumbing, electrical, and roofing."
+      parentUrl: "/resources"
+      parentTitle: "Resources"
+      schema: "Article"
+      wordCount: 3500
+      content_outline:
+        h1: Industry-Specific Google Ads: Complete Guide
+        h2s:
+          - Why Industry-Specific Google Ads Matter
+          - Google Ads for HVAC Companies
+          - Google Ads for Plumbing Services
+          - Google Ads for Electrical Contractors
+          - Google Ads for Roofing Companies
+          - Google Ads for Landscaping Businesses
+          - Frequently Asked Questions
+    subtopic_pillars:
+      - url: /resources/industry-specific-google-ads/google-ads-for-hvac-companies
+        title: "Google Ads for HVAC Companies: Complete Guide"
+        metaTitle: "Google Ads for HVAC Companies | LeadGen Ads"
+        metaDescription: "Learn how to create effective Google Ads campaigns for HVAC companies. Complete guide covering keywords, ad copy, landing pages, and optimization strategies."
+        primaryKeyword: "google ads for hvac companies"
+        secondaryKeywords:
+          - "hvac google ads"
+          - "hvac ppc advertising"
+        featuredSnippet: "Google Ads for HVAC companies involves targeting emergency and seasonal keywords, optimizing for local search, and creating ad copy that addresses urgent heating and cooling needs."
+        parentUrl: "/resources/industry-specific-google-ads"
+        parentTitle: "Industry-Specific Google Ads"
+        grandparentUrl: "/resources"
+        grandparentTitle: "Resources"
+        schema: "Article"
+        wordCount: 2200
+        content_outline:
+          h1: Google Ads for HVAC Companies: Complete Guide
+          h2s:
+            - Why Google Ads Works for HVAC Companies
+            - Setting Up Google Ads for HVAC
+            - HVAC-Specific Keywords and Ad Copy
+            - Optimizing for HVAC Lead Generation
+            - Measuring Success
+            - Frequently Asked Questions
+    paa_blog_posts:
+      defaults:
+        target_word_count: 1200
+        schema_type: Article, FAQPage
+      posts:
+        - title: "How Do Google Ads Work for HVAC Companies?"
+          slug: "how-do-google-ads-work-for-hvac-companies"
+          metaTitle: "How Do Google Ads Work for HVAC Companies? | LeadGen Ads"
+          metaDescription: "Discover how Google Ads work for HVAC companies. Learn about targeting emergency keywords, local search optimization, and strategies for generating qualified HVAC leads."
+          primaryKeyword: "how do google ads work for hvac companies"
+          parentUrl: "/resources/industry-specific-google-ads/google-ads-for-hvac-companies"
+          parentTitle: "Google Ads for HVAC Companies"
+          grandparentUrl: "/resources/industry-specific-google-ads"
+          grandparentTitle: "Industry-Specific Google Ads"
+          greatGrandparentUrl: "/resources"
+          greatGrandparentTitle: "Resources"
+
+  - silo_name: Google Ads Services and Management
+    entity_relationships:
+      primary_entity: Google Ads Services and Management
+      supporting_entities:
+        - Google Search Ads Management
+        - Local Service Ads Management
+        - Display Remarketing
+        - Google Ads Account Management
+      related_entities_other_silos:
+        Google Ads for Service Businesses: service offerings for service businesses
+        Google Ads Strategy and Optimization: management strategies and optimization approaches
+    cross_silo_linking:
+      link_to:
+        - silo: Google Ads for Service Businesses
+          reason: When explaining services for service businesses
+        - silo: Google Ads Strategy and Optimization
+          reason: When discussing management strategies
+      link_from:
+        - Google Ads for Service Businesses
+        - Google Ads Strategy and Optimization
+    main_pillar:
+      url: /resources/google-ads-services-and-management
+      title: "Google Ads Services and Management: Complete Guide"
+      metaTitle: "Google Ads Services and Management Guide | LeadGen Ads"
+      metaDescription: "Learn about Google Ads services and management options for service businesses. Complete guide covering search ads management, LSA management, remarketing, and account management."
+      primaryKeyword: "google ads services and management"
+      secondaryKeywords:
+        - "google ads management"
+        - "ppc management services"
+        - "google ads account management"
+      featuredSnippet: "Google Ads services and management involves professional campaign setup, optimization, and ongoing management of search ads, local service ads, and remarketing campaigns to generate qualified leads."
+      parentUrl: "/resources"
+      parentTitle: "Resources"
+      schema: "Article"
+      wordCount: 3500
+      content_outline:
+        h1: Google Ads Services and Management: Complete Guide
+        h2s:
+          - What Is Google Ads Management?
+          - Google Search Ads Management
+          - Local Service Ads Management
+          - Display Remarketing Campaigns
+          - Google Ads Account Management
+          - Choosing the Right Management Service
+          - Frequently Asked Questions
+    subtopic_pillars:
+      - url: /resources/google-ads-services-and-management/google-search-ads-management
+        title: "Google Search Ads Management: Complete Guide"
+        metaTitle: "Google Search Ads Management | LeadGen Ads"
+        metaDescription: "Learn about Google Search Ads management services. Complete guide covering what's included, how it works, pricing, and what to expect from professional management."
+        primaryKeyword: "google search ads management"
+        secondaryKeywords:
+          - "search ads management"
+          - "ppc management"
+        featuredSnippet: "Google Search Ads management involves professional setup, ongoing optimization, keyword research, ad copywriting, bidding strategy, and performance tracking to maximize ROI and lead generation."
+        parentUrl: "/resources/google-ads-services-and-management"
+        parentTitle: "Google Ads Services and Management"
+        grandparentUrl: "/resources"
+        grandparentTitle: "Resources"
+        schema: "Article"
+        wordCount: 2200
+        content_outline:
+          h1: Google Search Ads Management: Complete Guide
+          h2s:
+            - What Is Google Search Ads Management?
+            - What's Included in Management
+            - How Management Works
+            - What to Expect
+            - Choosing a Management Service
+            - Frequently Asked Questions
+    paa_blog_posts:
+      defaults:
+        target_word_count: 1200
+        schema_type: Article, FAQPage
+      posts:
+        - title: "What Is Google Search Ads Management?"
+          slug: "what-is-google-search-ads-management"
+          metaTitle: "What Is Google Search Ads Management? | LeadGen Ads"
+          metaDescription: "Learn what Google Search Ads management is and what it includes. Discover how professional management helps optimize campaigns for better ROI and lead generation."
+          primaryKeyword: "what is google search ads management"
+          parentUrl: "/resources/google-ads-services-and-management/google-search-ads-management"
+          parentTitle: "Google Search Ads Management"
+          grandparentUrl: "/resources/google-ads-services-and-management"
+          grandparentTitle: "Google Ads Services and Management"
+          greatGrandparentUrl: "/resources"
+          greatGrandparentTitle: "Resources"
+
+  - silo_name: Google Ads Strategy and Optimization
+    entity_relationships:
+      primary_entity: Google Ads Strategy and Optimization
+      supporting_entities:
+        - Google Ads Keyword Research
+        - Google Ads Bidding Strategies
+        - Google Ads Ad Copywriting
+        - Google Ads Landing Page Optimization
+      related_entities_other_silos:
+        Google Ads for Service Businesses: optimization strategies for service businesses
+        Google Ads Services and Management: management approaches and optimization tactics
+    cross_silo_linking:
+      link_to:
+        - silo: Google Ads for Service Businesses
+          reason: When discussing optimization for service businesses
+        - silo: Google Ads Services and Management
+          reason: When explaining management strategies
+      link_from:
+        - Google Ads for Service Businesses
+        - Google Ads Services and Management
+    main_pillar:
+      url: /resources/google-ads-strategy-and-optimization
+      title: "Google Ads Strategy and Optimization: Complete Guide"
+      metaTitle: "Google Ads Strategy and Optimization Guide | LeadGen Ads"
+      metaDescription: "Learn Google Ads strategy and optimization techniques for service businesses. Complete guide covering keyword research, bidding, ad copy, landing pages, and conversion optimization."
+      primaryKeyword: "google ads strategy and optimization"
+      secondaryKeywords:
+        - "google ads optimization"
+        - "ppc strategy"
+        - "google ads best practices"
+      featuredSnippet: "Google Ads strategy and optimization involves researching keywords, developing bidding strategies, writing effective ad copy, optimizing landing pages, and continuously improving campaigns for better ROI."
+      parentUrl: "/resources"
+      parentTitle: "Resources"
+      schema: "Article"
+      wordCount: 3500
+      content_outline:
+        h1: Google Ads Strategy and Optimization: Complete Guide
+        h2s:
+          - Introduction to Google Ads Strategy
+          - Google Ads Keyword Research
+          - Google Ads Bidding Strategies
+          - Google Ads Ad Copywriting
+          - Landing Page Optimization
+          - Conversion Rate Optimization
+          - Frequently Asked Questions
+    subtopic_pillars:
+      - url: /resources/google-ads-strategy-and-optimization/google-ads-keyword-research
+        title: "Google Ads Keyword Research: Complete Guide"
+        metaTitle: "Google Ads Keyword Research Guide | LeadGen Ads"
+        metaDescription: "Learn how to research keywords for Google Ads campaigns. Complete guide covering keyword tools, search intent, keyword selection, and building effective keyword lists."
+        primaryKeyword: "google ads keyword research"
+        secondaryKeywords:
+          - "keyword research for google ads"
+          - "ppc keyword research"
+        featuredSnippet: "Google Ads keyword research involves identifying search terms your target customers use, analyzing search volume and competition, and selecting keywords that align with your business goals and conversion objectives."
+        parentUrl: "/resources/google-ads-strategy-and-optimization"
+        parentTitle: "Google Ads Strategy and Optimization"
+        grandparentUrl: "/resources"
+        grandparentTitle: "Resources"
+        schema: "Article"
+        wordCount: 2200
+        content_outline:
+          h1: Google Ads Keyword Research: Complete Guide
+          h2s:
+            - What Is Google Ads Keyword Research?
+            - Why Keyword Research Matters
+            - How to Research Keywords
+            - Selecting the Right Keywords
+            - Organizing Keywords
+            - Frequently Asked Questions
+    paa_blog_posts:
+      defaults:
+        target_word_count: 1200
+        schema_type: Article, FAQPage
+      posts:
+        - title: "How Do I Research Keywords for Google Ads?"
+          slug: "how-do-i-research-keywords-for-google-ads"
+          metaTitle: "How Do I Research Keywords for Google Ads? | LeadGen Ads"
+          metaDescription: "Learn how to research keywords for Google Ads campaigns. Discover keyword research tools, techniques, and strategies for finding the right keywords to target."
+          primaryKeyword: "how do i research keywords for google ads"
+          parentUrl: "/resources/google-ads-strategy-and-optimization/google-ads-keyword-research"
+          parentTitle: "Google Ads Keyword Research"
+          grandparentUrl: "/resources/google-ads-strategy-and-optimization"
+          grandparentTitle: "Google Ads Strategy and Optimization"
+          greatGrandparentUrl: "/resources"
+          greatGrandparentTitle: "Resources"
+
+  - silo_name: Google Ads Problems and Solutions
+    entity_relationships:
+      primary_entity: Google Ads Problems and Solutions
+      supporting_entities:
+        - Google Ads Not Getting Leads
+        - High Cost Per Lead
+        - Low Quality Score
+        - Budget Management Issues
+      related_entities_other_silos:
+        Google Ads Strategy and Optimization: solutions and optimization strategies
+        Google Ads for Service Businesses: problem-solving for service businesses
+    cross_silo_linking:
+      link_to:
+        - silo: Google Ads Strategy and Optimization
+          reason: When providing solutions and optimization strategies
+        - silo: Google Ads for Service Businesses
+          reason: When discussing service business-specific problems
+      link_from:
+        - Google Ads Strategy and Optimization
+        - Google Ads for Service Businesses
+    main_pillar:
+      url: /resources/google-ads-problems-and-solutions
+      title: "Google Ads Problems and Solutions: Complete Guide"
+      metaTitle: "Google Ads Problems and Solutions Guide | LeadGen Ads"
+      metaDescription: "Learn how to solve common Google Ads problems for service businesses. Complete guide covering issues with leads, costs, quality scores, budgets, and competitor analysis."
+      primaryKeyword: "google ads problems and solutions"
+      secondaryKeywords:
+        - "google ads not working"
+        - "google ads troubleshooting"
+        - "fix google ads"
+      featuredSnippet: "Google Ads problems and solutions involves identifying common campaign issues like low lead generation, high costs, poor quality scores, and budget management challenges, then implementing targeted fixes."
+      parentUrl: "/resources"
+      parentTitle: "Resources"
+      schema: "Article"
+      wordCount: 3500
+      content_outline:
+        h1: Google Ads Problems and Solutions: Complete Guide
+        h2s:
+          - Common Google Ads Problems
+          - Google Ads Not Getting Leads
+          - High Cost Per Lead
+          - Low Quality Score
+          - Budget Management Issues
+          - Competitor Analysis Problems
+          - Frequently Asked Questions
+    subtopic_pillars:
+      - url: /resources/google-ads-problems-and-solutions/google-ads-not-getting-leads
+        title: "Google Ads Not Getting Leads: Solutions Guide"
+        metaTitle: "Google Ads Not Getting Leads: Solutions | LeadGen Ads"
+        metaDescription: "Learn why your Google Ads aren't getting leads and how to fix it. Complete guide covering keyword issues, ad copy problems, landing page issues, and conversion tracking."
+        primaryKeyword: "google ads not getting leads"
+        secondaryKeywords:
+          - "google ads no leads"
+          - "ppc not generating leads"
+        featuredSnippet: "Google Ads not getting leads typically results from targeting the wrong keywords, poor ad copy, ineffective landing pages, or conversion tracking issues that prevent proper lead capture."
+        parentUrl: "/resources/google-ads-problems-and-solutions"
+        parentTitle: "Google Ads Problems and Solutions"
+        grandparentUrl: "/resources"
+        grandparentTitle: "Resources"
+        schema: "Article"
+        wordCount: 2200
+        content_outline:
+          h1: Google Ads Not Getting Leads: Solutions Guide
+          h2s:
+            - Why Google Ads Aren't Getting Leads
+            - Keyword and Targeting Issues
+            - Ad Copy Problems
+            - Landing Page Issues
+            - Conversion Tracking Problems
+            - Frequently Asked Questions
+    paa_blog_posts:
+      defaults:
+        target_word_count: 1200
+        schema_type: Article, FAQPage
+      posts:
+        - title: "Why Are My Google Ads Not Getting Leads?"
+          slug: "why-are-my-google-ads-not-getting-leads"
+          metaTitle: "Why Are My Google Ads Not Getting Leads? | LeadGen Ads"
+          metaDescription: "Discover why your Google Ads aren't getting leads and learn how to fix common issues. Learn about keyword targeting, ad copy, landing pages, and conversion tracking problems."
+          primaryKeyword: "why are my google ads not getting leads"
+          parentUrl: "/resources/google-ads-problems-and-solutions/google-ads-not-getting-leads"
+          parentTitle: "Google Ads Not Getting Leads"
+          grandparentUrl: "/resources/google-ads-problems-and-solutions"
+          grandparentTitle: "Google Ads Problems and Solutions"
+          greatGrandparentUrl: "/resources"
+          greatGrandparentTitle: "Resources"
+
